@@ -3,14 +3,16 @@ let idade = "21";
 const anoNascimento = 2001;
 let idadeMina = "15";
 
-console.log(idade === idadeEsposa);
-
 let listaCompras = ["Maça", "Carro", 1, 2, 3, 4]
 
-console.log(listaCompras);
+let lista = [1, 2, 3, 4, 5, 6]
 
-listaCompras.push("Moto");
+for (let i = 0; i < lista.length; i++) {
+    const element = lista[i];
+    console.log(lista[i])
+    
+}
 
-console.log(listaCompras.length);
+const titulo = document.getElementById("container")
 
-console.log(listaCompras[3]);
+console.log(container)
