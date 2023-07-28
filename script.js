@@ -1,18 +1,25 @@
-var nome = "Pedro";
-let idade = "21";
-const anoNascimento = 2001;
-let idadeMina = "15";
+const titulo = document.getElementById("titulo")
+const nomeInput = document.getElementById("nome")
+const email = document.getElementById("email")
+const tell = document.getElementById("tell")
+const resultado = document.getElementById("resultado")
 
-let listaCompras = ["Maça", "Carro", 1, 2, 3, 4]
+console.log(titulo.textContent)
 
-let lista = [1, 2, 3, 4, 5, 6]
+titulo.textContent = "Senai Cotia 2023"
 
-for (let i = 0; i < lista.length; i++) {
-    const element = lista[i];
-    console.log(lista[i])
-    
+function salvar() {
+
+    resultado.textContent = nomeInput.value
+    //resultado1.textContent = email.value
+    //resultado2.textContent = telsl.value
+
 }
 
-const titulo = document.getElementById("container")
+function salvar1() {
+    resultado1.textContent = email.value
+}
 
-console.log(container)
+function salvar2() {
+    resultado2.textContent = tell.value
+}
