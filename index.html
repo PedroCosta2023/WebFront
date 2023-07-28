@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
 
-    <h1 id="titulo"> Senai </h1>
+    <div class="container">
 
-    <span>Nome:</span><input id="nome" type="text">
-    <button onclick="salvar()">Salvar</button>
-    <h6 id="resultado"></h6>
+        <h1 class="titulo" id="titulo"> Senai </h1>
 
-    <span>E-mail:</span><input type="email" name="E-mail" id="email">
-    <button onclick="salvar()">Salvar</button>
-    <h6 id="resultado1"></h6>
+        <span>Nome:</span><input id="nome" type="text">
+        <button class="botao" onclick="salvar()">Salvar</button>
+        <h6 id="resultNome"></h6>
 
-    <span>Telefone</span><input type="tel" name="telefone" id="tell">
-    <button onclick="salvar()">Salvar</button>
-    <h6 id="resultado2"></h6>
+        <span>E-mail:</span><input type="email" name="E-mail" id="email">
+        <button class="botao" onclick="salvar()">Salvar</button>
+        <h6 id="resultEmail"></h6>
+
+        <span>Telefone</span><input type="tel" name="telefone" id="tell">
+        <button class="botao" onclick="salvar()">Salvar</button>
+        <h6 id="resultTell"></h6>
+
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
 </body>

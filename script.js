@@ -1,10 +1,14 @@
 const titulo = document.getElementById("titulo")
+
+//Inputs
 const nomeInput = document.getElementById("nome")
 const email = document.getElementById("email")
 const tell = document.getElementById("tell")
-const resultado = document.getElementById("resultado")
-const resultado1 = document.getElementById("resultado1")
-const resultado2 = document.getElementById("resultado2")
+
+//Outputs
+const resultNome = document.getElementById("resultNome")
+const resultEmail = document.getElementById("resultEmail")
+const resultTell = document.getElementById("resultTell")
 
 console.log(titulo.textContent)
 
@@ -12,8 +16,8 @@ titulo.textContent = "Senai Cotia 2023"
 
 function salvar() {
 
-    resultado.textContent = nomeInput.value
-    resultado1.textContent = email.value
-    resultado2.textContent = tell.value
+    resultNome.textContent = nomeInput.value
+    resultEmail.textContent = email.value
+    resultTell.textContent = tell.value
 
 }
